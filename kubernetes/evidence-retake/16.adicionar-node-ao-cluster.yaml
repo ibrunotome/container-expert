@@ -1,0 +1,6 @@
+gcloud container clusters resize <cluster-name> --num-nodes=4 --zone=us-central1-a
+
+ou fora do GKE
+
+kubeadm token list
+kubeadm join [api-server-endpoint] --token

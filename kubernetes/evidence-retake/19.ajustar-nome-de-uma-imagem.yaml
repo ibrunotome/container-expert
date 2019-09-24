@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx-renamed
+  name: nginx-renamed
+  namespace: default
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      run: nginx-renamed
+  template:
+    metadata:
+      labels:
+        run: nginx-renamed
+    spec:
+      containers:
+      - image: nginx:1.17.0
+        imagePullPolicy: Always
+        name: nginx-renamed
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        resources: {}
+      restartPolicy: Always
