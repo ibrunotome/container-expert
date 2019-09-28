@@ -1,0 +1,25 @@
+# Conteúdo
+
+- O que é container?
+- O que é o Docker e essa versão 18.09?
+- Instalando o Docker
+- A nova CLI do Docker!
+- Executando e administrando containers Docker
+- Gerenciando os recursos dos containers, como CPU e Memória.
+- Docker system e prune
+- Meu primeiro e tosco Dockerfile…
+- Entendendo Volumes
+- Criando e gerenciando imagens
+- Compartilhando as imagens
+- Meu primeiro Dockerfile Sensacional
+- Criando e gerenciando networks
+- Entendendo o daemon do docker
+- Utilizando o Docker Machine
+- Criando o nosso cluster Swarm
+- Criando e gerenciando os services
+- Entendendo o docker compose v3
+- Docker stack, integrando compose-files com o nosso cluster docker swarm
+- Docker Secrets, o novo cofre do seu cluster
+- Dockerfile com Multi-Stage
+- Docker Plugin
+- EXTRA: Prometheus e Grafana

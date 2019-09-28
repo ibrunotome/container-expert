@@ -1,0 +1,36 @@
+# Conteúdo
+
+- O que preciso saber antes de começar?
+- Qual linux devo usar?
+- Quais sites eu devo acessar?
+- E o K8s?
+- Primeiros conceitos e palavras chaves do k8s
+- Instalando o Minikube
+- Instalando um cluster com 03 nodes.
+- Iniciando o cluster K8s
+- Primeiros Passos no K8s
+- Componentes do K8s
+- Deployments
+- ReplicaSet
+- DaemonSet
+- Services
+- Criando service ClusterIP
+- Criando service NodePort
+- Criando service LoadBalancer
+- EndPoint
+- Limitando Recursos
+- Namespaces
+- Kubectl taint
+- Node Selector
+- kubectl Edit
+- Rollouts e Rollbacks
+- Volumes
+- Empty-Dir
+- Persistent Volume
+- Helm
+- Cron Jobs
+- Secrets
+- ConfigMaps
+- InitContainers
+- RBAC
+- Ingress
