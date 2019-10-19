@@ -4,14 +4,10 @@ metadata:
   name: reviews
 spec:
   hosts:
-    - reviews
+  - reviews
   http:
   - route:
     - destination:
         host: reviews
-        subset: v1
-      weight: 0
-    - destination:
-        host: reviews
-        subset: v3
-      weight: 100
+        subset: v2
+    timeout: 0.5s

@@ -9,12 +9,12 @@ spec:
   - match:
     - headers:
         end-user:
-          exact: jason
+          exact: giropops
     fault:
       abort:
         percentage:
           value: 100.0
-        httpStatus: 500
+        httpStatus: 404
     route:
     - destination:
         host: ratings

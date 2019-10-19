@@ -9,16 +9,16 @@ spec:
   - match:
     - headers:
         end-user:
-          exact: jason
+          exact: giropops
     fault:
       delay:
         percentage:
-          value: 100.0
+          value: 50.0
         fixedDelay: 7s
     route:
     - destination:
         host: ratings
-        subset: v1
+        subset: v2
   - route:
     - destination:
         host: ratings
